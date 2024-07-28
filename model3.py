@@ -56,7 +56,9 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 start_time = time.time()
 
 # Define the URL of the webpage you want to scrape
-url = 'https://asia.nikkei.com/Location/East-Asia/Japan?gad_source=1&gclid=CjwKCAjwko21BhAPEiwAwfaQCCm2n55bexCCSDpcMYjc2yh_xJU7TqxDbYDABvUqzpIxIEegj9lmjhoCsrAQAvD_BwE'
+main_url_news = 'https://asia.nikkei.com/Location/Rest-of-the-World'
+jp_url_news = 'https://asia.nikkei.com/Location/East-Asia/Japan?gad_source=1&gclid=CjwKCAjwko21BhAPEiwAwfaQCCm2n55bexCCSDpcMYjc2yh_xJU7TqxDbYDABvUqzpIxIEegj9lmjhoCsrAQAvD_BwE'
+ph_url_news= "https://asia.nikkei.com/Location/Southeast-Asia/Philippines"
 
 
 # Your bot token
@@ -105,7 +107,7 @@ async def send_news():
     logger.info("System is sending news announcement.")
     active_channels = load_active_channels(ANNOUNCEMENT_CHANNEL_FILE)  # Load active channels before sending announcements
     try:
-        response = requests.get(url)
+        response = requests.get(main_url_news)
         response.raise_for_status()  # Raise an exception for HTTP errors
         soup = BeautifulSoup(response.text, 'html.parser')
         start_after_first_item = soup.find('span', class_='ezstring-field')
@@ -344,7 +346,8 @@ async def help_command(interaction: discord.Interaction):
         name="Announcements:",
         value="`/activate_all_announcements`  - Receive all announcements about news and upcoming astronomy events.\n"
               "- I send daily news at 8 AM and astronomy updates around 12 PM if there is any upcoming news about it.\n"
-              "`/news` To receive news updates.",
+              "`/ph_news` To receive Philippines news updates.\n"
+              "`/jp_news` To receive Japan news updates.",
         inline=False
     )
 
@@ -397,29 +400,41 @@ async def help_command(interaction: discord.Interaction):
 
     
 
-@bot.tree.command(name="news")
-async def news_command(interaction: discord.Interaction):
+@bot.tree.command(name="jp_news")
+async def jp_news_command(interaction: discord.Interaction):
     if isinstance(interaction.channel, discord.DMChannel):
-        logger.info(f"/news is used by {interaction.user} in DMs")
+        logger.info(f"/jp_news is used by {interaction.user} in DMs")
         await interaction.response.defer(ephemeral=True)
-        await fetch_and_send_news(interaction.user)
+        await fetch_and_send_news(interaction.user, jp_url_news)
     else:
-        logger.info(f"/news is used by {interaction.user} in {interaction.guild} for channel {interaction.channel.name}")
+        logger.info(f"/jp_news is used by {interaction.user} in {interaction.guild} for channel {interaction.channel.name}")
         await interaction.response.defer(ephemeral=True)
-        await fetch_and_send_news(interaction.channel)
-    await interaction.followup.send("News has been sent to this channel.", ephemeral=True)
+        await fetch_and_send_news(interaction.channel, jp_url_news)
+    await interaction.followup.send("Japanese news has been sent to this channel.", ephemeral=True)
 
-async def fetch_and_send_news(channel: discord.abc.Messageable):
+
+@bot.tree.command(name="ph_news")
+async def ph_news_command(interaction: discord.Interaction):
+    if isinstance(interaction.channel, discord.DMChannel):
+        logger.info(f"/ph_news is used by {interaction.user} in DMs")
+        await interaction.response.defer(ephemeral=True)
+        await fetch_and_send_news(interaction.user, ph_url_news)
+    else:
+        logger.info(f"/ph_news is used by {interaction.user} in {interaction.guild} for channel {interaction.channel.name}")
+        await interaction.response.defer(ephemeral=True)
+        await fetch_and_send_news(interaction.channel, ph_url_news)
+    await interaction.followup.send("Philippine news has been sent to this channel.", ephemeral=True)
+
+
+
+async def fetch_and_send_news(channel: discord.abc.Messageable, url: str):
     try:
         response = requests.get(url)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
-        start_after_first_item = soup.find('span', class_='ezstring-field')
-        if start_after_first_item:
-            card_bodies = []
-            for sibling in start_after_first_item.find_all_next('div', class_='card__body'):
-                card_bodies.append(sibling)
-
+        
+        card_bodies = soup.find_all('div', class_='card__body')
+        if card_bodies:
             message = ""
             for card in card_bodies[:6]:
                 link = card.find('a', href=True)
@@ -429,7 +444,7 @@ async def fetch_and_send_news(channel: discord.abc.Messageable):
 
             await channel.send(f"\n{message}\n**Here is the latest news you asked for: **\n")
         else:
-            logger.error("Start item not found in the HTML.")
+            logger.error("No news items found in the HTML.")
             await channel.send("Failed to find news items on the webpage.")
     except requests.exceptions.RequestException as e:
         logger.error(f"Request error during news retrieval: {e}")

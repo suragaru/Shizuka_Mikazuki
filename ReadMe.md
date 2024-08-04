@@ -15,10 +15,10 @@
     <img src="https://img.shields.io/github/last-commit/suragaru/shizuka_app" alt="last update" />
   </a>
   <a href="https://github.com/suragaru/shizuka_app/issues/">
-    <img src="https://img.shields.io/github/issues/suragaru/shizuka_app." alt="open issues" />
+    <img src="https://img.shields.io/github/issues/suragaru/shizuka_app.svg" alt="open issues" />
   </a>  
   <a href="https://github.com/suragaru/shizuka_app/blob/main/LICENSE.md">
-    <img src="https://img.shields.io/github/license/suragaru/shizuka_app" alt="open issues" />
+    <img src="https://img.shields.io/github/license/suragaru/shizuka_app.svg" alt="open issues" />
   </a>  
 </p>
 

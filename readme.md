@@ -35,12 +35,13 @@
 <!-- About the Project -->
 ## :star2: About the Project
 
-<!---
+
 <!-- Screenshots -->
+<!---
 ### :camera: Screenshots
 
 <div align="center"> 
-  <img src="screenshot_url" alt="screenshot" />
+  <img src="screenshot_url" alt="screenshot"/>
 </div>
 --->
 

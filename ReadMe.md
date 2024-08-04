@@ -43,12 +43,15 @@ Whether you use this project, have learned something from it, or just like it, p
 - Music Playback: Plays music in voice channels.
 - Moderator Tools: Provides tools for server moderation.
 
+![User Features](http://i.imgur.com/WbF1fi2.png)
+
 ## Setup
 
 ### Prerequisites
 
 - Python 3.8+
-- Discord Bot Token
+- `DISCORD_BOT_TOKEN`
+- `YOUR_DISCORD_USER_ID`
 - Required Python packages listed in `requirements.txt`
 
 ### Installation

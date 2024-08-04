@@ -42,7 +42,7 @@ Whether you use this project, have learned something from it, or just like it, p
 - Anime Information: Searches and displays details about anime.
 - Music Playback: Plays music in voice channels.
 - Moderator Tools: Provides tools for server moderation.
-<hr>
+<hr style="border: 0; border-top: 1px solid #ccc;">
 
 
 ![User Features](http://i.imgur.com/WbF1fi2.png)

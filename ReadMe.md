@@ -62,8 +62,8 @@ Whether you use this project, have learned something from it, or just like it, p
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/suragaru/shizuka_app.git
-   cd shizuka_app
+   git clone https://github.com/suragaru/Shizuka_App.git
+   cd Shizuka_App
    ```
 2. Install required packages:
    ```bash

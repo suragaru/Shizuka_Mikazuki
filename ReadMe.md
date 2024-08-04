@@ -60,12 +60,12 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the Repository
    ```bash
    git clone https://github.com/suragaru/Shizuka_App.git
    cd Shizuka_App
    ```
-2. Install required packages:
+2. Install Dependencies
    ```bash
    pip install -r requirements.txt
    ```

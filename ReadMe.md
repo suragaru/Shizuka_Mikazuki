@@ -65,5 +65,5 @@ Whether you use this project, have learned something from it, or just like it, p
    ```
 2. Install required packages:
    ```bash
-   pip freeze > requirements.txt
+   pip install -r requirements.txt
    ```

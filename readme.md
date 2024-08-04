@@ -1,10 +1,10 @@
 <div align="center">
-
+<!---
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />
   <h1>Shizuka Discord Bot</h1>
-  
+--->  
   <p>
-    An awesome README template for your projects! 
+    All in one discord bot 
   </p>
   
   

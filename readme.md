@@ -70,9 +70,9 @@
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`API_KEY`
+`DISCORD_BOT_TOKEN`
 
-`ANOTHER_API_KEY`
+`YOUR_DISCORD_USER_ID`
 
 
 <!-- Getting Started -->

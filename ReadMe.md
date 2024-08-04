@@ -20,6 +20,7 @@
   <a href="https://github.com/suragaru/shizuka_app/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/suragaru/shizuka_app" alt="license" />
   </a>
+
 </p>
 
 This is a Discord bot built using `discord.py` with various functionalities including astronomy announcements, news updates, Bible verses, anime information, and more.

@@ -63,7 +63,7 @@ ph_url_news= "https://asia.nikkei.com/Location/Southeast-Asia/Philippines"
 
 # Your bot token
 TOKEN = "YOUR_DISCORD_BOT_TOKEN"
-YOUR_USER_ID = YOUR_DISCORD_ID
+YOUR_USER_ID = YOUR_DISCORD_USER_ID
 
 # Files to save active channel IDs
 ANNOUNCEMENT_CHANNEL_FILE = 'active_announcement_channels.json'

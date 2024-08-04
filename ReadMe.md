@@ -2,17 +2,17 @@
 
 <!-- Badges -->
 <p>
-  <a href="https://github.com/suragaru/shizuka_app/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/suragaru/shizuka_app" alt="contributors" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/github/last-commit/suragaru/shizuka_app" alt="last update" />
-  </a>
   <a href="https://github.com/suragaru/shizuka_app/network/members">
     <img src="https://img.shields.io/github/forks/suragaru/shizuka_app" alt="forks" />
   </a>
   <a href="https://github.com/suragaru/shizuka_app/stargazers">
     <img src="https://img.shields.io/github/stars/suragaru/shizuka_app" alt="stars" />
+  </a>
+  <a href="https://github.com/suragaru/shizuka_app/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/suragaru/shizuka_app" alt="contributors" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/github/last-commit/suragaru/shizuka_app" alt="last update" />
   </a>
   <a href="https://github.com/suragaru/shizuka_app/issues/">
     <img src="https://img.shields.io/github/issues/suragaru/shizuka_app" alt="open issues" />

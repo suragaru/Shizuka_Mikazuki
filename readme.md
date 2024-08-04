@@ -37,7 +37,11 @@
 
 <!-- Screenshots -->
 ### :camera: Screenshots
-![image](https://github.com/user-attachments/assets/ee4a33e3-26b0-4a3b-baad-8b02fada4182)
+
+<div align="center"> 
+  <img src="https://github.com/user-attachments/assets/ee4a33e3-26b0-4a3b-baad-8b02fada4182" alt="screenshot" />
+</div>
+
 
 
 

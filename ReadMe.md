@@ -17,7 +17,7 @@
   <a href="https://github.com/suragaru/shizuka_app/issues/">
     <img src="https://img.shields.io/github/issues/suragaru/shizuka_app" alt="open issues" />
   </a>
-  <a href="[https://github.com/suragaru/shizuka_app/blob/main/LICENSE](https://github.com/suragaru/shizuka_app/blob/main/LICENSE.md)">
+  <a href="https://github.com/suragaru/shizuka_app/blob/main/LICENSE.md">
     <img src="https://img.shields.io/github/license.md/suragaru/shizuka_app" alt="license" />
   </a>
 

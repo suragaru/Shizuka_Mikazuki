@@ -48,11 +48,21 @@
 
 
 <!-- Features -->
-### :dart: Features
+### :dart: Features a bot can do
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Daily News and Astronomy Annoumcements
+- News Updates
+- Daily Bible Verse
+- Random Bible Verse
+- Music
+- Check Status of the Bot
+- Check Latency
+- Roll a dice
+- Sends a message to specific user
+- Send a message to specific channel
+- Check server info
+- Check user info
+- Deletes a specified number of messages from the channel
 
 
 <!-- Env Variables -->

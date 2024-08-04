@@ -25,3 +25,8 @@ This is a Discord bot built using `discord.py` with various functionalities incl
    ```bash
    git clone https://github.com/yourusername/yourbot.git
    cd yourbot
+   ```
+2. Install required packages:
+   ```bash
+   pip freeze > requirements.txt
+   ```

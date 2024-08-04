@@ -44,7 +44,7 @@ Whether you use this project, have learned something from it, or just like it, p
 - Moderator Tools: Provides tools for server moderation.
   
 <br>
-[User Features](http://i.imgur.com/WbF1fi2.png)
+![User Features](http://i.imgur.com/WbF1fi2.png)
 
 ## Setup
 

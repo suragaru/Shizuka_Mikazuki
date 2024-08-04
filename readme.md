@@ -50,11 +50,11 @@
 <!-- Features -->
 ### :dart: Features a bot can do
 
-- Daily News and Astronomy Annoumcements
+- Daily News and Astronomy annoumcements
 - News Updates
 - Daily Bible Verse
 - Random Bible Verse
-- Music
+- Play music
 - Check Status of the Bot
 - Check Latency
 - Roll a dice

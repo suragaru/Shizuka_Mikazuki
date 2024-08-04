@@ -1,4 +1,4 @@
-# Discord Bot Project
+# Shizuka Discord Bot Project
 
 <!-- Badges -->
 <p>

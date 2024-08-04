@@ -43,6 +43,7 @@ Whether you use this project, have learned something from it, or just like it, p
 - Music Playback: Plays music in voice channels.
 - Moderator Tools: Provides tools for server moderation.
 
+<hr>
 ![User Features](http://i.imgur.com/WbF1fi2.png)
 
 ## Setup

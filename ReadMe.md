@@ -68,8 +68,8 @@ Whether you use this project, have learned something from it, or just like it, p
    pip install -r requirements.txt
    ```
 3. To run this project, You will need to add the following environment variables:
--`DISCORD_BOT_TOKEN`
--`YOUR_DISCORD_USER_ID`<br>
+- `DISCORD_BOT_TOKEN`
+- `YOUR_DISCORD_USER_ID`<br>
 4. Once the dependencies are installed and environment variable added, you can run `model3.py` to start the application.You will then invite the bot to your server.
 
 ---

@@ -1,0 +1,6 @@
+discord.py
+yt-dlp
+aiohttp
+beautifulsoup4
+requests
+colorlog

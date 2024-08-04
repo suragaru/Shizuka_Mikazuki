@@ -60,8 +60,8 @@ Whether you use this project, have learned something from it, or just like it, p
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourbot.git
-   cd yourbot
+   git clone https://github.com/suragaru/shizuka_app.git
+   cd shizuka_app
    ```
 2. Install required packages:
    ```bash

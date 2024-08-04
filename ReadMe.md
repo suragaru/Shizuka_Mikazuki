@@ -1,10 +1,26 @@
 # Discord Bot Project
 
-[![GitHub Stars](https://img.shields.io/github/stars/IgorAntun/node-chat.svg)](https://github.com/IgorAntun/node-chat/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/node-chat.svg)](https://github.com/IgorAntun/node-chat/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/IgorAntun/node-chat) 
-
-<!---
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://igorantun.com/chat) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/IgorAntun/node-chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
---->
+<!-- Badges -->
+<p>
+  <a href="https://github.com/suragaru/shizuka_app/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/suragaru/shizuka_app" alt="contributors" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/github/last-commit/suragaru/shizuka_app" alt="last update" />
+  </a>
+  <a href="https://github.com/suragaru/shizuka_app/network/members">
+    <img src="https://img.shields.io/github/forks/suragaru/shizuka_app" alt="forks" />
+  </a>
+  <a href="https://github.com/suragaru/shizuka_app/stargazers">
+    <img src="https://img.shields.io/github/stars/suragaru/shizuka_app" alt="stars" />
+  </a>
+  <a href="https://github.com/suragaru/shizuka_app/issues/">
+    <img src="https://img.shields.io/github/issues/suragaru/shizuka_app" alt="open issues" />
+  </a>
+  <a href="https://github.com/suragaru/shizuka_app/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/suragaru/shizuka_app" alt="license" />
+  </a>
+</p>
 
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 

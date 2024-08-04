@@ -41,7 +41,8 @@ Whether you use this project, have learned something from it, or just like it, p
 - Daily Bible Verse: Shares a daily Bible verse in specified channels.
 - Anime Information: Searches and displays details about anime.
 - Music Playback: Plays music in voice channels.
-- Moderator Tools: Provides tools for server moderation.<hr>
+- Moderator Tools: Provides tools for server moderation.
+<hr>
 
 
 ![User Features](http://i.imgur.com/WbF1fi2.png)

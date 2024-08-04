@@ -29,6 +29,7 @@
     <img src="https://img.shields.io/github/license/suragaru/shizuka_app" alt="license" />
   </a>
 </p>
+</div>
 
 
 <!-- About the Project -->

@@ -78,6 +78,9 @@ To run this project, you will need to add the following environment variables to
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
 
+### Dependencies
+*
+
 ```bash
  npm install --global yarn
 ```

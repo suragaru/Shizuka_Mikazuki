@@ -1,6 +1,6 @@
 # Discord Bot Project
 
-[![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 
 This is a Discord bot built using `discord.py` with various functionalities including astronomy announcements, news updates, Bible verses, anime information, and more.
 

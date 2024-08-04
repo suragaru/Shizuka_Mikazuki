@@ -36,8 +36,8 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ## Features
 
-*Astronomy Announcements: Sends daily updates about upcoming astronomy events.
-*News Updates: Provides the latest news from specified sources.
+- Astronomy Announcements: Sends daily updates about upcoming astronomy events.
+- News Updates: Provides the latest news from specified sources.
 - Daily Bible Verse: Shares a daily Bible verse in specified channels.
 - Anime Information: Searches and displays details about anime.
 - Music Playback: Plays music in voice channels.

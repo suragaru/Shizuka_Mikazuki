@@ -10,22 +10,22 @@
   
 <!-- Badges -->
 <p>
-  <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
+  <a href="https://github.com/suragaru/shizuka_app/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/suragaru/shizuka_app" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/Louis3797/awesome-readme-template" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/suragaru/shizuka_app" alt="last update" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/network/members">
-    <img src="https://img.shields.io/github/forks/Louis3797/awesome-readme-template" alt="forks" />
+  <a href="https://github.com/suragaru/shizuka_app/network/members">
+    <img src="https://img.shields.io/github/forks/suragaru/shizuka_app" alt="forks" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/stargazers">
-    <img src="https://img.shields.io/github/stars/Louis3797/awesome-readme-template" alt="stars" />
+  <a href="https://github.com/suragaru/shizuka_app/stargazers">
+    <img src="https://img.shields.io/github/stars/suragaru/shizuka_app" alt="stars" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/issues/">
-    <img src="https://img.shields.io/github/issues/Louis3797/awesome-readme-template" alt="open issues" />
+  <a href="https://github.com/suragaru/shizuka_app/issues/">
+    <img src="https://img.shields.io/github/issues/suragaru/shizuka_app" alt="open issues" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template.svg" alt="license" />
+  <a href="https://github.com/suragaru/shizuka_app/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/suragaru/shizuka_app" alt="license" />
   </a>
 </p>

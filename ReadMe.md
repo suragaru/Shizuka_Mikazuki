@@ -34,7 +34,7 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ---
 
-## Features
+## :dart: Features
 
 - Astronomy Announcements: Sends daily updates about upcoming astronomy events.
 - News Updates: Provides the latest news from specified sources.
@@ -47,7 +47,7 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ![User Features](http://i.imgur.com/WbF1fi2.png)
 
-## Setup
+## :toolbox: Setup
 
 ### Prerequisites
 

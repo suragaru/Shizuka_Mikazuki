@@ -17,8 +17,8 @@
   <a href="https://github.com/suragaru/shizuka_app/issues/">
     <img src="https://img.shields.io/github/issues/suragaru/shizuka_app" alt="open issues" />
   </a>
-  <a href="https://github.com/suragaru/shizuka_app/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/suragaru/shizuka_app" alt="license" />
+  <a href="[https://github.com/suragaru/shizuka_app/blob/main/LICENSE](https://github.com/suragaru/shizuka_app/blob/main/LICENSE.md)">
+    <img src="https://img.shields.io/github/license.md/suragaru/shizuka_app" alt="license" />
   </a>
 
 </p>
@@ -76,6 +76,6 @@ Whether you use this project, have learned something from it, or just like it, p
 ---
 
 ## License
->You can check out the full license [here](https://github.com/suragaru/shizuka_app/blob/main/LICENSE)
+>You can check out the full license [here](https://github.com/suragaru/shizuka_app/blob/main/LICENSE.md)
 
 This project is licensed under the terms of the **MIT** license.

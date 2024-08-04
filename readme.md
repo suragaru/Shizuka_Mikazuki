@@ -29,3 +29,80 @@
     <img src="https://img.shields.io/github/license/suragaru/shizuka_app" alt="license" />
   </a>
 </p>
+
+
+<!-- About the Project -->
+## :star2: About the Project
+
+<!-- Screenshots -->
+### :camera: Screenshots
+
+
+<!-- Features -->
+### :dart: Features
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+
+<!-- Env Variables -->
+### :key: Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`API_KEY`
+
+`ANOTHER_API_KEY`
+
+
+<!-- Getting Started -->
+## 	:toolbox: Getting Started
+
+
+
+<!-- FAQ -->
+## :grey_question: FAQ
+
+- Question 1
+
+  + Answer 1
+
+- Question 2
+
+  + Answer 2
+
+
+<!-- License -->
+## :warning: License
+
+Distributed under the no License. See LICENSE.txt for more information.
+
+
+<!-- Contact -->
+## :handshake: Contact
+
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+
+Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+
+
+<!-- Acknowledgments -->
+## :gem: Acknowledgements
+
+Use this section to mention useful resources and libraries that you have used in your projects.
+
+ - [Shields.io](https://shields.io/)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
+ - [Readme Template](https://github.com/othneildrew/Best-README-Template)
+
+
+
+
+
+
+
+
+
+

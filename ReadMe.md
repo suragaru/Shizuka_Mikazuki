@@ -61,8 +61,8 @@ Whether you use this project, have learned something from it, or just like it, p
 
 1. Clone the Repository
    ```bash
-   git clone https://github.com/suragaru/Shizuka_App.git
-   cd Shizuka_App
+   git clone https://github.com/suragaru/Shizuka_Mikazuki.git
+   cd Shizuka_Mikazuki
    ```
 2. Install Dependencies
    ```bash
